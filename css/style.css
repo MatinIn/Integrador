@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+h5 {
+    font-size: 2rem;
+}
+p {
+    font-size: 1rem;
+}
+@media (min-width: 576px) {
+    h5 {
+        font-size: 2.4rem;
+    }
+
+    p {
+        font-size: 1.4rem;
+    }
+}
+@media (min-width:  768px) {
+    h5 {
+        font-size: 2.8rem;
+    }
+
+    p {
+        font-size: 1.8rem;
+    }
+}
+
+.card-oradores{
+    border-radius: 0.5rem;
+    margin-bottom: 2rem;
+}
+.img-oradores{
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+.bg-honolulu{
+    background-color: rgb(52, 56, 58);
+}
+.bg-submit{
+    background-color: rgb(54, 182, 16);
+}
+.bg-footer{
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(0, 75, 105));
+}
